@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 require("dotenv").config(); // dotenv configuration
 
 app.get("/", (req, res) => {
-  res.send("deployed automatically!");
+  res.send("Hello K8s");
 });
 
 app.get("/secret", (req, res) => {
